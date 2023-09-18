@@ -1,3 +1,4 @@
+import 'package:finefound/views/pages/Vhome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -271,7 +272,7 @@ class _SignUpscreenState extends State<SignUpscreen> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (context) =>
-                                          const LoginScreen()),
+                                          const VHomeScreen()),
                                 );
                               },
                               child: Padding(
